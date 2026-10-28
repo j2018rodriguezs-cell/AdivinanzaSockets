@@ -62,7 +62,8 @@ La atención simultánea de múltiples clientes se logra de la siguiente manera:
 ### Pasos para Ejecutar
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/j2018rodriguezs-cell/AdivinanzaSockets.git](https://github.com/j2018rodriguezs-cell/AdivinanzaSockets.git)
+   git clone [git clone https://github.com/j2018rodriguezs-cell/AdivinanzaSockets.git](git clone https://github.com/j2018rodriguezs-cell/AdivinanzaSockets.git)
+   cd AdivinanzaSockets
 2. **Iniciar el Servidor:**
    * Abre `Servidor.java` en Visual Studio Code y presiona el botón **Play (▶️)**.
    * Deberás ver en consola: `[SERVIDOR] El servidor ha iniciado la escucha en el puerto 5000.`
@@ -76,8 +77,8 @@ La atención simultánea de múltiples clientes se logra de la siguiente manera:
    * Abre una **segunda pestaña de terminal independiente**.
    * Vuelve a ejecutar `Cliente.java`.
    * Observa cómo el servidor atiende ambos clientes en paralelo mostrando trazas independientes en la consola principal del servidor.
-   
-### Ejemplo del Intercambio de Información Esperado
+
+  ### Ejemplo del Intercambio de Información Esperado
 
 ```text
 ==================================================
@@ -99,9 +100,10 @@ La atención simultánea de múltiples clientes se logra de la siguiente manera:
 [SERVIDOR] Información recibida del Cliente #1: "57"
 [SERVIDOR] ¡El Cliente #1 ha acertado el número secreto!
 [SERVIDOR] Conexión cerrada y recursos liberados para el Cliente #1.
+```
 ---
 
 ## 🤖 Declaración Transparente del Uso de Inteligencia Artificial
 
-* **Herramienta asistencial utilizada:** Gemini (Google AI).
-* **Propósito y alcance:** Durante la fase inicial de configuración del entorno en Windows, surgió un inconveniente técnico donde el comando `javac` no era reconocido por el sistema debido a la falta de configuración en la variable de entorno `PATH` del JDK. Se consultó a la herramienta de IA para diagnosticar el problema, y se optó por la solución recomendada de compilar y ejecutar directamente mediante la extensión de Java para Visual Studio Code.
+* **Herramienta asistencial utilizada:** Gemini (Google IA).
+* **Propósito y alcance:** Durante la fase inicial de configuración del entorno en Windows, se presentaron inconvenientes con las variables de entorno `PATH` del JDK. Se consultó a la herramienta de IA para diagnosticar el problema y estructurar adecuadamente la documentación del repositorio.
