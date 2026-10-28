@@ -6,6 +6,7 @@ Proyecto desarrollado para la **Unidad 2: Concurrencia y Network** de la asignat
 
 ## 👨‍💻 Integrantes
 * **Jonathan David Rodríguez Suárez**
+* **Juan José Benitez**
 
 ---
 
