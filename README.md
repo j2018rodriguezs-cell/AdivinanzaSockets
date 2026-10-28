@@ -76,7 +76,29 @@ La atención simultánea de múltiples clientes se logra de la siguiente manera:
    * Abre una **segunda pestaña de terminal independiente**.
    * Vuelve a ejecutar `Cliente.java`.
    * Observa cómo el servidor atiende ambos clientes en paralelo mostrando trazas independientes en la consola principal del servidor.
+   
+### Ejemplo del Intercambio de Información Esperado
 
+```text
+==================================================
+[SERVIDOR] (Número secreto generado para pruebas: 57)
+[SERVIDOR] El servidor ha iniciado la escucha en el puerto 5000.
+
+[SERVIDOR] ¡Conexión establecida con éxito!
+[SERVIDOR] Cliente #1 conectado desde: /127.0.0.1:61025
+
+[SERVIDOR] Información recibida del Cliente #1: "12"
+[SERVIDOR] Enviado al Cliente #1: pista (es mayor).
+
+[SERVIDOR] ¡Conexión establecida con éxito!
+[SERVIDOR] Cliente #2 conectado desde: /127.0.0.1:60760
+
+[SERVIDOR] Información recibida del Cliente #2: "26"
+[SERVIDOR] Enviado al Cliente #2: pista (es mayor).
+
+[SERVIDOR] Información recibida del Cliente #1: "57"
+[SERVIDOR] ¡El Cliente #1 ha acertado el número secreto!
+[SERVIDOR] Conexión cerrada y recursos liberados para el Cliente #1.
 ---
 
 ## 🤖 Declaración Transparente del Uso de Inteligencia Artificial
