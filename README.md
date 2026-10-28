@@ -62,8 +62,7 @@ La atención simultánea de múltiples clientes se logra de la siguiente manera:
 ### Pasos para Ejecutar
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/TU_USUARIO/AdivinanzaSockets.git](https://github.com/TU_USUARIO/AdivinanzaSockets.git)
-   cd AdivinanzaSockets
+   git clone [https://github.com/j2018rodriguezs-cell/AdivinanzaSockets.git](https://github.com/j2018rodriguezs-cell/AdivinanzaSockets.git)
 2. **Iniciar el Servidor:**
    * Abre `Servidor.java` en Visual Studio Code y presiona el botón **Play (▶️)**.
    * Deberás ver en consola: `[SERVIDOR] El servidor ha iniciado la escucha en el puerto 5000.`
