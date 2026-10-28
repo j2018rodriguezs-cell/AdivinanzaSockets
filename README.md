@@ -82,4 +82,4 @@ La atención simultánea de múltiples clientes se logra de la siguiente manera:
 ## 🤖 Declaración Transparente del Uso de Inteligencia Artificial
 
 * **Herramienta asistencial utilizada:** Gemini (Google AI).
-* **Propósito y alcance:** Durante la fase inicial de configuración del entorno en Windows, surgió un inconveniente técnico donde el comando `javac` no era reconocido por el sistema debido a la falta de configuración en la variable de entorno `PATH` del JDK[cita: 1]. Se consultó a la herramienta de IA para diagnosticar el problema, y se optó por la solución recomendada de compilar y ejecutar directamente mediante la extensión de Java para Visual Studio Code.
+* **Propósito y alcance:** Durante la fase inicial de configuración del entorno en Windows, surgió un inconveniente técnico donde el comando `javac` no era reconocido por el sistema debido a la falta de configuración en la variable de entorno `PATH` del JDK. Se consultó a la herramienta de IA para diagnosticar el problema, y se optó por la solución recomendada de compilar y ejecutar directamente mediante la extensión de Java para Visual Studio Code.
